@@ -63,31 +63,123 @@ section{
     padding-left: 2%;
     float: left;
     }
-.single-experience{
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 5px;
-    height: 70%;
-    background-color: white;
-    }
-.experience-area{
-    background-image: url("images/exp-bg.png");
-    background-repeat: no-repeat;
-    background-position: left;
-    }
-#full-stack{
-    border-left: 7px solid;
-    border-image: linear-gradient(45deg,#c000ff, yellow);
-    border-image-slice: 1;
-}
-#baby-web{
-    border-left: 7px solid;
-    border-image: linear-gradient(45deg,#c000ff, yellow);
-    border-image-slice: 1;  
-}
-.footer{
-    text-align: center;
-    font-size: 15px;
-}
+
+/* Work SECTION */
+
+#work-section {
     
+    height: 100px;
+}
+.work-images {
+    box-sizing: border-box;
+  }
+  
+  .box {
+    float: left;
+    width: 25%;
+    margin: 4%;
+  }
+  .box img {
+      width: 100%;
+  }
+  
+/* Client SECTION */
+
+  #client-section{
+	  background-color: #f3f3f3;
+	padding: 30px 5px;
+    text-align: center;
+    font:10px;
+  }
+	
+
+.client-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+
+/* message area*/
+
+.message-box{
+    padding: 30px 5px;
+    color: white;
+    width: 60%;
+    margin: 60px auto;
+    background: linear-gradient(90deg, #4592dc , #ff3082);
+    border-radius: 5px;
+    text-align: center;
+}
+.message-box p{
+    font-size: 20px;
+    color: white;
+}
+
+
+/* Extra_SECTION Contact area*/
+
+.contact-section {
+	background: #fff;
+	width:700px;
+	padding:5px;
+	margin:40px auto;
+    margin-top: 100px; 
+	text-align: center;
+}
+
+input[type=text], input[type=email], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+	width: 30%;
+	text-align: center;
+	margin: 5x;
+  background-color: #ff3082;
+  color: white;
+  padding:15px;
+  border: none;
+  border-radius: 4px;
+}
+
+input[type=submit]:hover {
+  background-color: #4592dc;
+}
+
+
+/* Footer Section */
+
+footer{
+    text-align: center;
+    color: grey;
+    font:10px;
+}
+
+/* Social */
+#social-section {
+	text-align:center;
+	padding: 30px 0;
+	background-color: #f3f3f3;
+}
+
+#social-section ul{
+    list-style: none;
+}
+
+#social-section .social ul li {
+	display: inline-block;
+	padding: 5px 10px;
+}
+#social-section .social ul li a:hover{
+   color: #ff3082;
+}
 
 
